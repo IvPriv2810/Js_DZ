@@ -57,14 +57,16 @@ for (let index = 0; index < 15; index++) {
 
 //#7
 
-for (even = 0; even < 101; even++) {
+for (let even = 0; even < 101; even++) {
     let ev = even % 2;
     if (ev == 0) {
         console.log(even);
     }
 }
 
-//#8
+#8
+
+
 
 let a = 0;
 let sum = 1;
@@ -78,7 +80,7 @@ while (a < 101) {
 //#9
 
 let str = '';
-for (far = 0; far < 12; far++) {
+for (let far = 0; far < 12; far++) {
     let cut = far % 2;
     if (cut != 0) {
         str = str + far;
@@ -89,7 +91,7 @@ console.log(str);
 //#10 
 
 let str = '';
-for (far = -124; far < -117; far++) {
+for (let far = -124; far < -117; far++) {
     str = str + far;
 };
 
@@ -99,7 +101,7 @@ console.log(str);
 
 let str = '';
 
-for (far = -1; far > -10; far--) {
+for (let far = -1; far > -10; far--) {
     str = str + far;
 };
 str = str + '-'
