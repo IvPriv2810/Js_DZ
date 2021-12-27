@@ -1,6 +1,6 @@
 //#1
 
-/*let i = ['a', 'b', 'c'];
+let i = ['a', 'b', 'c'];
 let n = [1, 2, 3, 4];
 let d = i.concat(n);
 
@@ -39,16 +39,45 @@ console.log(b);
 //#6
 
 let i = { js: 'test', jq: 'hello', css: 'world' };
-console.log(Object.keys(i));*/
+console.log(Object.keys(i));
 
-//#7
+// #7
 
 // let i = [1, 2, 3, 4, 5];
 
-// for (n = 0, n < i.length, n++) {
-//     i[n] = i.pop(), i.push(i[0]);
-// }
-// console.log(i)
-//     //#8
+//#8
 
-// let i =  [[1, 2, 3], [4, 5], [6]];
+let i = [
+    [1, 2, 3],
+    [4, 5],
+    [6]
+];
+let sum = 0;
+for (let n = 0; n < i.length; n++) {
+    for (let j = 0; j < i[n].length; j++) {
+        sum += i[n][j];
+    }
+}
+console.log(sum);
+
+//#9
+
+let v = [
+    [
+        [1, 2],
+        [3, 4]
+    ],
+    [
+        [5, 6],
+        [9, 8]
+    ]
+];
+let sum = 0;
+for (var i = 0; i < v.length; i++) {
+    for (var j = 0; j < v[i].length; j++) {
+        for (var k = 0; k < v[i][j].length; k++) {
+            sum += v[i][j][k];
+        }
+    }
+}
+console.log(sum);
