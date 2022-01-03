@@ -35,4 +35,60 @@ const f = (a) => {
 }
 
 let k = f(i)
-console.log(k)*/
+console.log(k)
+
+//#4
+
+let i = prompt('input word', '')
+let n = ['word', 'text', 'good', 'job', 'false', 'true', 'game'];
+
+const f = (a, b) => {
+    for (k = 0; k < b.length; k++) {
+        if (a == b[k]) {
+            console.log(true)
+        } else {
+            console.log(false)
+        }
+    }
+
+}
+f(i, n)
+
+//#5
+
+let i = prompt('input value', '')
+let n = +prompt('input number', '')
+let d = []
+d.length = n
+d.fill(i)
+console.log(d)
+
+//#6
+
+let date = new Date();
+console.log(date)
+let day = date.getDay()
+console.log(day)
+let i = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
+const f = (a, b) => {
+    for (k = 0; k < a.length; k++) {
+        if (b == k) {
+            console.log(a[k].italics())
+        }
+    }
+}
+f(i, day)
+
+//#7
+
+let i = +prompt('input number>1000', '')
+let n = 0
+const f = (a, b) => {
+    for (let k = a; k > 50; k = k / 2) {
+        b++
+        console.log(k)
+    }
+    console.log(b)
+
+}
+f(i, n)*/
