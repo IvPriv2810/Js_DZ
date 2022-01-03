@@ -7,14 +7,14 @@ console.log([1] > null); // обьект преобразуется в true
 console.log('foo' + +'bar'); // при использовании в постфиксной форме оставляет результат без изменений, при использовании в префиксной форме показывает ошибку так как к строке нельзя прибавитть 1
 console.log('true' == true); // Преобразование boolean в строки это false
 console.log(false == 'false'); // Преобразование строки в boolean  это false
-console.log(null == '');
-console.log(!!'false' == !!'true');
-console.log(['x'] == 'x');
-console.log([] + null + 1);
+console.log(null == ''); //Значение null представляет отсутствие какого-либо объектного значения
+console.log(!!'false' == !!'true'); //""- в булин это false => false == false
+console.log(['x'] == 'x'); //так как приводит все к строке х=х
+console.log([] + null + 1); //массив это 0 все остальное сумма как строк 
 console.log(0 || '0' && {});
-console.log([1, 2, 3] == [1, 2, 3]);
-console.log(!!null);
-console.log(!!undefined);
+console.log([1, 2, 3] == [1, 2, 3]); // так как сравнивает два совершенно разных обьекта памяти
+console.log(!!null); //в булин это false
+console.log(!!undefined); //==nul поэтому false
 
 //#2
 let i = 20;
@@ -64,7 +64,7 @@ for (let even = 0; even < 101; even++) {
     }
 }
 
-#8
+//#8
 
 
 
