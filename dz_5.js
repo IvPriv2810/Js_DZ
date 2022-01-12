@@ -277,3 +277,11 @@
 // }
 // let b = funcDi(i, n, d)
 // console.log(b)
+
+//#21
+
+// let i = ['Potato', 'Repa', 'Rediska', 'Carrot'];
+
+// let b = i.map(word => word.length)
+
+// console.log(b)
