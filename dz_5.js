@@ -285,3 +285,20 @@
 // let b = i.map(word => word.length)
 
 // console.log(b)
+
+//#26
+// let i = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let n = []
+// let d = +prompt('input number from 1 to 10', '')
+
+// const func = (array, size, newarr) => {
+//     for (k = 0; k < array.length; k++) {
+//         newarr.push(array.slice(k, size + k));
+//         k = size + k - 1
+//     }
+//     return newarr;
+// };
+
+// console.log(func(i, d, n))
+
+//#27
