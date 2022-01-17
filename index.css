@@ -23,3 +23,31 @@ button {
     background-color: rgba(199, 52, 155, 0.479);
     margin: 5px 15px;
 }
+
+.elem3 {
+    width: 100px;
+    height: 25px;
+    background-color: rgba(199, 52, 155, 0.479);
+    margin: 5px 15px;
+}
+
+.dz9 {
+    margin-left: 250px;
+}
+
+.dz11 {
+    margin-left: 250px;
+    margin-top: 75px;
+}
+
+.dz14 {
+    width: 350px;
+    color: red;
+}
+
+.dz141 {
+    width: 100px;
+    height: 25px;
+    background-color: rgba(199, 52, 155, 0.479);
+    margin: 5px 15px;
+}
