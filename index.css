@@ -1,0 +1,25 @@
+.firsttask {
+    margin-top: 25px;
+    display: flex;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(52, 66, 199, 0.479);
+    margin: 5px 15px;
+}
+
+.elem {
+    width: 100px;
+    height: 25px;
+    background-color: rgba(199, 52, 155, 0.479);
+    margin: 5px 15px;
+}
+
+.elem2 {
+    width: 100px;
+    height: 25px;
+    background-color: rgba(199, 52, 155, 0.479);
+    margin: 5px 15px;
+}
