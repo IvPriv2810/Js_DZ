@@ -286,6 +286,38 @@
 
 // console.log(b)
 
+//#23
+
+// let i = "Every hunter wants to know, where the pheasant is sitting.";
+// let n = i.split(' ')
+// let d = n.map(first => first[0].toUpperCase())
+// console.log(d)
+
+//#24
+
+// let i = [1, 2, 3];
+// let n = [4, 5, 6];
+// let d = [7, 8, 9];
+
+// let result = i.concat(n, d)
+// console.log(result)
+
+//#25
+
+// let i = [2, 4, 3, 1, 2, 1];
+// let n = 2
+// let d = 0
+
+// const func = (a, b, c) => {
+//     for (k = 0; k < a.length; k++) {
+//         if (a[k] == b) {
+//             c++
+//         }
+//     }
+//     return c
+// }
+// console.log(func(i, n, d))
+
 //#26
 // let i = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let n = []
