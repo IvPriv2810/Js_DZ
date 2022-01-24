@@ -246,8 +246,9 @@ let eight = document.querySelector('.eight')
 let nine = document.querySelector('.nine')
 let zero = document.querySelector('.zero')
 
-function Dz25() {
-    field.value + plus.value
-}
+plus.addEventListener('click', Dz25('+'))
+zero.addEventListener('dblclick', Dz25(0))
 
-plus.addEventListener('click', Dz25)
+function Dz25(a) {
+    field.value = field.value + a
+}

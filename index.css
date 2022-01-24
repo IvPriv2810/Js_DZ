@@ -126,3 +126,7 @@ button {
 .number {
     margin-top: 25px;
 }
+
+.zero {
+    width: 50px;
+}
